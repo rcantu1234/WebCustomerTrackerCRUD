@@ -28,7 +28,7 @@ public class TestDBServlet extends HttpServlet {
 		String driver = "com.mysql.jdbc.Driver";
 		String jdbcUrl = "jdbc:mysql://localhost:3306/web_customer_tracker?useSSL=false";
 		
-		// TESTING GIT
+		// Testing GIT for commit.
 		
 		try {
 			PrintWriter out = response.getWriter();
